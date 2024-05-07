@@ -1,42 +1,64 @@
-# Creating a Fit Template for EISPAC and Calculating Fe XIII Density
+# Averaging EIS Spectral Data using EISPAC
 
-This repository provides two tutorials:
+This tutorial demonstrates how to average spectral data from the EUV Imaging Spectrometer (EIS) instrument using the EISPAC package. It focuses on the Fe XII 195.12 Å line and covers the following topics:
 
-1. [Creating a new fit template](https://github.com/andyto1234/EISPAC-Tutorial___Fe-XIII-Density/blob/main/Tutorial__Making_an_EIS_fit_template.ipynb) for EIS (Extreme-ultraviolet Imaging Spectrometer) data, focusing on the Fe XIII spectral lines.
-2. [Calculating the density](https://github.com/andyto1234/EISPAC-Tutorial___Fe-XIII-Density/blob/main/Tutorial__Calculate_FeXIII_Density.ipynb) of Fe XIII using the EISPAC package in Python.
-
-## Fit Template Tutorial
-
-The default template in EISPAC only fits 2 Gaussians. In this tutorial, we fit 3 Gaussians according to the EIS software notes.
-
-This code expands on [Alexandros Koukras's tutorial](https://github.com/AlexandrosKoukras/EIS_data_analysis/blob/main/Making_an_EIS_fit_template.ipynb) on creating single peak EISPAC template.
-
-## Fe XIII Density Calculation Tutorial
-
-The Fe XIII density calculation tutorial demonstrates how to use the EISPAC package to calculate the density of Fe XIII from EIS data. It covers the following steps:
-
-1. Reading in EIS data and Fe XIII templates
-2. Fitting the spectra using the templates
-3. Calculating the intensity ratio of the 203.83 Å and 202.04 Å lines
-4. Converting the intensity ratio to density values using a pre-calculated density ratio table
-5. Creating and plotting a density map using SunPy
-
-This tutorial provides a practical example of how to use EISPAC for scientific analysis of EIS data, specifically for density diagnostics using the Fe XIII spectral lines.
+1. Reading and fitting EIS data using EISPAC
+2. Defining a region of interest for averaging
+3. Creating a custom function to average spectral data within the defined region
+4. Applying the averaging function to the EIS data
+5. Analyzing and visualizing the averaged spectral data
 
 ## Requirements
 
-These are the package details I used.
+To run this tutorial, you'll need the following packages installed:
 
-\- Python 3.9.15
-\- eispac 0.94.8
-\- sunpy 5.0.1
-\- astropy 5.3.3
-\- scipy 1.11.3
-\- numpy
-\- matplotlib
-\- h5py
+- eispac
+- astropy
+- matplotlib
+- numpy
+- scipy
 
-## Special Thanks
+## Getting Started
 
-We used Claude 3 LLM to create this README.md.
-# EISPAC-Tutorial___Spectral_Averaging
+1. Clone or download the tutorial repository to your local machine.
+2. Install the required packages listed above.
+3. Open the Jupyter notebook `averaging_eis_spectral_data.ipynb` in your preferred environment (e.g., Jupyter Lab, Jupyter Notebook).
+4. Follow the step-by-step instructions in the notebook to learn how to average EIS spectral data using EISPAC.
+
+## Data
+
+The tutorial uses an example EIS data cube located at `/Users/andysh.to/Script/Python_Script/spice/comp_mosaic_2024/eis_20240327_224050.head.h5`. Make sure to replace this path with the correct location of your EIS data cube.
+
+## Tutorial Outline
+
+1. Introduction
+2. Prerequisites
+3. Reading and Fitting EIS Data
+4. Defining the Region of Interest
+5. Creating the Averaging Function
+6. Applying the Averaging Function
+7. Analyzing the Averaged Spectral Data
+8. Visualizing the Results
+9. Conclusion
+
+## Expected Outcomes
+
+By the end of this tutorial, you will be able to:
+
+- Read and fit EIS data using EISPAC
+- Define a region of interest for averaging spectral data
+- Create a custom function to average spectral data within a specified region
+- Apply the averaging function to EIS data
+- Analyze and visualize the averaged spectral data and its fit profile
+
+## Additional Resources
+
+- [EISPAC Documentation](https://eispac.readthedocs.io/)
+- [Astropy Documentation](https://docs.astropy.org/)
+- [Matplotlib Documentation](https://matplotlib.org/stable/contents.html)
+
+## Contact
+
+If you have any questions or issues with the tutorial, please feel free to open an issue on the tutorial repository or contact the author directly.
+
+Author: Andy S.H. To
