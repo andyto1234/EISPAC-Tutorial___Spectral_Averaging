@@ -62,4 +62,3 @@ By the end of this tutorial, you will be able to:
 If you have any questions or issues with the tutorial, please feel free to open an issue on the tutorial repository or contact the author directly.
 
 Author: Andy S.H. To
-# EISPAC-Tutorial___Spectral_Averaging
