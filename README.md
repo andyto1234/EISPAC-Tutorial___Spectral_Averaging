@@ -22,7 +22,7 @@ To run this tutorial, you'll need the following packages installed:
 
 1. Clone or download the tutorial repository to your local machine.
 2. Install the required packages listed above.
-3. Open the Jupyter notebook `averaging_eis_spectral_data.ipynb` in your preferred environment (e.g., Jupyter Lab, Jupyter Notebook).
+3. Open the Jupyter notebook `Tutorial__Averaging_Spectra.ipynb` in your preferred environment (e.g., Jupyter Lab, Jupyter Notebook).
 4. Follow the step-by-step instructions in the notebook to learn how to average EIS spectral data using EISPAC.
 
 ## Data
