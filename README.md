@@ -25,10 +25,13 @@ This tutorial provides a practical example of how to use EISPAC for scientific a
 
 ## Requirements
 
-\- Python 3.x
-\- eispac
-\- astropy
-\- scipy
+These are the package details I used.
+
+\- Python 3.9.15
+\- eispac 0.94.8
+\- sunpy 5.0.1
+\- astropy 5.3.3
+\- scipy 1.11.3
 \- numpy
 \- matplotlib
 \- h5py
@@ -36,3 +39,4 @@ This tutorial provides a practical example of how to use EISPAC for scientific a
 ## Special Thanks
 
 We used Claude 3 LLM to create this README.md.
+# EISPAC-Tutorial___Spectral_Averaging
